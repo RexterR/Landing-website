@@ -57,7 +57,7 @@ export default function ProfilePage(props) {
                   </div>
                   <div className={classes.name}>
                     <h3 className={classes.title}>
-                      ArciTech : Where we architect the code{" "}
+                      ArciTech : {" "}
                     </h3>
                     <h6>SNU Kolkata</h6>
                     <Button justIcon link className={classes.margin5}>
@@ -75,10 +75,10 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                Contact Us at email <strong style={{fontStyle:"italic"}}>contact@arcitech.tech</strong> to
+                Contact Us at email <strong style={{ fontStyle: "italic" }}>contact@arcitech.tech</strong> to
                 talk more about professional work like sponsorship or anything.
                 To complain about anything reach us at{" "}
-                <strong style={{fontStyle:"italic"}}>complain@arcitech.tech</strong>
+                <strong style={{ fontStyle: "italic" }}>complain@arcitech.tech</strong>
               </p>
             </div>
             <WorkSection />
