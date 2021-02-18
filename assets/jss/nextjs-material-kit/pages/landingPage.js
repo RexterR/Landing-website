@@ -21,7 +21,7 @@ const landingPageStyle = {
     margin: "10px auto 0",
   },
   team: {
-    fontWeight:"400",
+    fontWeight: "400",
     display: "inline-block",
     position: "relative",
     marginTop: "30px",

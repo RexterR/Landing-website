@@ -26,13 +26,13 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>ABOUT US</h2>
           <h5 className={classes.description}>
-            Arcitech community is an initiative with the vision of creating a freindly enviroment
+            ArciTECH community is an initiative with the vision of creating a freindly enviroment
             where one will develop his/her own skills as well as guide others to develop theirs.
             Our goal is to develop solutions for real life problems spread the thinking of peer-to-peer learning.
             <br />
             <br />
               This community is open for all those who are interested in learning, developing and
-              sharing knowledge. Here, in Arcitech, we conduct workshops, seminars and other fun
+              sharing knowledge. Here, in ArciTECH, we conduct workshops, seminars and other fun
               activities, thus making learning more easy and developing more fun.
           </h5>
         </GridItem>

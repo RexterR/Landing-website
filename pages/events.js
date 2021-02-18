@@ -38,7 +38,7 @@ export default function LandingPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 400,
+          height: 100,
           color: "white",
         }}
         {...rest}
@@ -58,23 +58,30 @@ export default function LandingPage(props) {
                 Interested in being Speaker or Sponsor ? Check out below options.
               </h4>
               <br />
-              <div>
-                <Button
-                  color="primary"
-                  href="https://forms.gle/YWtu3sDrqGTH1DJe7"
-                >
-                  Sponsor Event
+              <GridContainer>
+                <GridItem xs={6} sm={6} md={6}>
+
+                  <Button
+                    color="primary" rounded
+                    href="https://forms.gle/YWtu3sDrqGTH1DJe7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Proposal
               </Button>
 
-                <Button
-                  color="primary"
-                  href="https://forms.gle/YWtu3sDrqGTH1DJe7"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Proposal
-              </Button>
-              </div>
+                  <Button
+                    color="primary"
+                    href="https://forms.gle/YWtu3sDrqGTH1DJe7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Sponsor Event
+                </Button>
+
+                </GridItem>
+              </GridContainer>
+
             </GridItem>
           </GridContainer>
         </div>

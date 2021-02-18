@@ -61,7 +61,7 @@ export default function ProfilePage(props) {
         <div>
           <div className={classes.container}>
             <GridContainer justify="center">
-              <GridItem xs={12} sm={12} md={6}>
+              <GridItem xs={8} sm={8} md={8}>
                 <div className={classes.profile}>
                   <div>
                     <img
@@ -70,25 +70,32 @@ export default function ProfilePage(props) {
                       className={imageClasses}
                     />
                   </div>
-                  <div className={classes.name}>
-                    <h3 className={classes.title}>
-                      ArciTech{" "}
-                    </h3>
-                    <h6>SNU Kolkata</h6>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-twitter"} />
+                  <h1 className={classes.title}>
+                    Projects
+              </h1>
+                  <h4 classname={classes.subtitle}>
+                    Alongwith learning, hands on is quite important. If you have developed something interesting and want your project to be featured here then
+                    Click the below button.
+                <br />
+                    <br />
+                  </h4>
+                  <br />
+                  <div>
+                    <Button
+                      color="primary"
+                      href="https://forms.gle/YWtu3sDrqGTH1DJe7"
+                    >
+                      Submit Project
                     </Button>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-instagram"} />
-                    </Button>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-facebook"} />
-                    </Button>
+                    <br />
+                    <br />
                   </div>
                 </div>
               </GridItem>
             </GridContainer>
-            <div className={classes.description}>
+
+
+            {/* <div className={classes.description}>
               <p>
                 Arcitech community is an initiative with the vision of creating a freindly enviroment
                 where one will develop his/her own skills as well as guide others to develop theirs.
@@ -100,8 +107,8 @@ export default function ProfilePage(props) {
                 sharing knowledge. Here, in Arcitech, we conduct workshops, seminars and other fun
                 activities, thus making learning more easy and developing more fun.
               </p>
-            </div>
-            <GridContainer justify="center">
+            </div> */}
+            {/* <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills
                   alignCenter
@@ -189,7 +196,7 @@ export default function ProfilePage(props) {
                   ]}
                 />
               </GridItem>
-            </GridContainer>
+            </GridContainer> */}
           </div>
         </div>
       </div>

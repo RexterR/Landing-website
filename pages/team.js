@@ -39,7 +39,7 @@ export default function LandingPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 400,
+          height: 100,
           color: "white",
         }}
         {...rest}
@@ -48,22 +48,25 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h3 className={classes.title}>
+              <h1 className={classes.title}>
+                Team
+              </h1>
+              <h3 classname={classes.subtitle}>
                 Teamwork is the ability to work together toward a common vision.
-                <br /><br />
-                At ArciTECH we celebrate team work and give the credits for the success of this community
-                to those individuals who put their hardwork and untiringly efforts for it.
+                <br />
+                <br />
+                At ArciTECH, we celebrate team work and encourage those individuals who put their hardwork for success of community.
               </h3>
               <br />
-              <br />
               <Button
-                color="primary"
-                href="https://forms.gle/YWtu3sDrqGTH1DJe7"
+                color="primary" rounded
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeZ6rsIGQ83m2Q-0ibdfYNobBv4mn1A6Iq1ZFfUx9W2ALIkNA/viewform?usp=sf_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Join Our Team
+                Join our Team
               </Button>
+
             </GridItem>
           </GridContainer>
         </div>

@@ -40,7 +40,7 @@ export default function LandingPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 400,
+          height: 100,
           color: "white",
         }}
         {...rest}
@@ -56,7 +56,7 @@ export default function LandingPage(props) {
               <br />
               <Button
                 color="primary"
-                href="https://forms.gle/YWtu3sDrqGTH1DJe7"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe9W2B4-S2Stv62l5zgWTemwXpLyKC91jtOsLZZTglbEmonkg/viewform?usp=sf_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >

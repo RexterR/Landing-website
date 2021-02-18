@@ -34,7 +34,7 @@ export default function Footer(props) {
             <ListItem className={classes.inlineBlock}>ArciTech</ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation?ref=njsmk-footer"
+                href="https://docs.google.com/document/d/1YVGrwAhnVld6F8ofTVd3XEtKx8o2huy7FHSEmOS-fyg/edit?usp=sharing"
                 className={classes.block}
                 target="_blank"
               >
@@ -43,7 +43,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://blog.creative-tim.com/?ref=njsmk-footer"
+                href="https://docs.google.com/document/d/1zZ1vzZu8RkCRrnW7SnwgHEMUjTxPl-NDz1qrY7BkCt4/edit?usp=sharing"
                 className={classes.block}
                 target="_blank"
               >
