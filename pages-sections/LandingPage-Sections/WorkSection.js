@@ -57,11 +57,11 @@ export default function WorkSection() {
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Contact Us </h2>
-          <h4 className={classes.description}>
+          {/* <h4 className={classes.description}>
             Want to know about us? Want to sponsor us or anything you want to
             say. Send us message and we will get back to you in less then one
             day.
-          </h4>
+          </h4> */}
           <form onSubmit={submitForm}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>

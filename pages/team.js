@@ -28,7 +28,7 @@ const useStyles = makeStyles(styles);
 export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
- 
+
   return (
     <div>
       <Header
@@ -48,12 +48,13 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>
-                We are making good thing together, with 💗
-              </h1>
-              <h4 className={classes.subtitle}>
-                This is our team behind all dedicated to make things happen.
-              </h4>
+              <h3 className={classes.title}>
+                Teamwork is the ability to work together toward a common vision.
+                <br /><br />
+                At ArciTECH we celebrate team work and give the credits for the success of this community
+                to those individuals who put their hardwork and untiringly efforts for it.
+              </h3>
+              <br />
               <br />
               <Button
                 color="primary"

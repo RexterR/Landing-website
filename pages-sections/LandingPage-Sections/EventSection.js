@@ -23,8 +23,8 @@ export default function TeamSection() {
   const imageClasses = classNames(classes.imgCardTop);
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Join us In those exciting events</h2>
-      <div>
+      <h2 className={classes.title}>Exciting Events Coming Soon !!!</h2>
+      {/* <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
@@ -88,7 +88,7 @@ export default function TeamSection() {
             </Card>
           </GridItem>
         </GridContainer>
-      </div>
+      </div> */}
     </div>
   );
 }

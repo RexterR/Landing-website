@@ -61,9 +61,9 @@ export default function TeamSection() {
                 {member.role || "Developer"}
               </small>
             </h4>
-            <CardBody>
+            {/* <CardBody>
               <p className={classes.description}>{member.about}</p>
-            </CardBody>
+            </CardBody> */}
             <CardFooter className={classes.justifyCenter}>
               <Button
                 justIcon

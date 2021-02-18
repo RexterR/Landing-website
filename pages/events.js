@@ -48,20 +48,33 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>
-                We are organizing awesome events together, with 💗
+                Events
               </h1>
               <h4 classname={classes.subtitle}>
-                Join us in our events to explore more. You are invited.
+                Join us in our events and gather knowledge with fun. Here in ArciTECH, we try and make our events more joyful and informative
+                such that each and every person attending are benefitted from it.
+                <br />
+                <br />
+                Interested in being Speaker or Sponsor ? Check out below options.
               </h4>
               <br />
-              <Button
-                color="primary"
-                href="https://forms.gle/YWtu3sDrqGTH1DJe7"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sponsor Event
+              <div>
+                <Button
+                  color="primary"
+                  href="https://forms.gle/YWtu3sDrqGTH1DJe7"
+                >
+                  Sponsor Event
               </Button>
+
+                <Button
+                  color="primary"
+                  href="https://forms.gle/YWtu3sDrqGTH1DJe7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Proposal
+              </Button>
+              </div>
             </GridItem>
           </GridContainer>
         </div>

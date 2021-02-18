@@ -53,8 +53,10 @@ export default function Footer(props) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by Team ArciTech to Build a better
+          &copy; {1900 + new Date().getYear()}
+          {/* with{" "} */}
+          {/* <Favorite className={classes.icon} />  */}
+          , made by Team ArciTech to Build a better
           community
         </div>
       </div>
