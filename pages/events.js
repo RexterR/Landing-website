@@ -63,7 +63,7 @@ export default function LandingPage(props) {
 
                   <Button
                     color="primary" rounded
-                    href="https://forms.gle/YWtu3sDrqGTH1DJe7"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSc6cAaOdOZF2SRHAQNpYdmEInL8r2b40fmwmyzN9SpnG0osqg/viewform?usp=sf_link"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -72,7 +72,7 @@ export default function LandingPage(props) {
 
                   <Button
                     color="primary"
-                    href="https://forms.gle/YWtu3sDrqGTH1DJe7"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScMYRr7a-FZptuZHgKqVioo1kO6lc5tJPmZtMS-RyIe0koomQ/viewform?usp=sf_link"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
