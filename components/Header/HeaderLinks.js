@@ -57,11 +57,11 @@ export default function HeaderLinks(props) {
           </Button>
         </ListItem>
       </Link> */}
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Button color="transparent" className={classes.navLink} href="https://medium.com/@arcitech.snu">
           Blog
         </Button>
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
