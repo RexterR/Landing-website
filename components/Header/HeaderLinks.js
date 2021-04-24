@@ -58,7 +58,7 @@ export default function HeaderLinks(props) {
         </ListItem>
       </Link> */}
       <ListItem className={classes.listItem}>
-        <Button color="transparent" className={classes.navLink}>
+        <Button color="transparent" className={classes.navLink} href="https://medium.com/@arcitech.snu">
           Blog
         </Button>
       </ListItem>
