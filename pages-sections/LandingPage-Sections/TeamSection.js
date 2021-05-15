@@ -66,25 +66,34 @@ export default function TeamSection() {
             </CardBody> */}
             <CardFooter className={classes.justifyCenter}>
               <Button
+                href={member.links.twitter}
                 justIcon
                 color="transparent"
                 className={classes.margin5}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <i className={classes.socials + " fab fa-linkedin"} />
+                <i className={classes.socials + " fab fa-twitter"} />
               </Button>
               <Button
+                href={member.links.linkedin}
                 justIcon
                 color="transparent"
                 className={classes.margin5}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <i className={classes.socials + " fab fa-instagram"} />
+                <i className={classes.socials + " fab fa-linkedin-in"} />
               </Button>
               <Button
+                href={member.links.github}
                 justIcon
                 color="transparent"
                 className={classes.margin5}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <i className={classes.socials + " fab fa-facebook"} />
+                <i className={classes.socials + " fab fa-github"} />
               </Button>
             </CardFooter>
           </Card>

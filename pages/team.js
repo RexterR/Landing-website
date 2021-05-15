@@ -35,7 +35,7 @@ export default function LandingPage(props) {
         id="header"
         color="transparent"
         routes={dashboardRoutes}
-        brand="ArciTech"
+        brand="ArciTECH"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -59,14 +59,13 @@ export default function LandingPage(props) {
               </h3>
               <br />
               <Button
-                color="primary" rounded
+                color="custom" rounded
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeZ6rsIGQ83m2Q-0ibdfYNobBv4mn1A6Iq1ZFfUx9W2ALIkNA/viewform?usp=sf_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Join our Team
               </Button>
-
             </GridItem>
           </GridContainer>
         </div>
