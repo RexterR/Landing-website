@@ -13,10 +13,22 @@ const infoStyle = {
   infoArea: {
     maxWidth: "360px",
     margin: "0 auto",
-    padding: "0px"
+    padding: "40px",
+    transition: "transform .2s", /* Animation */
+    "&:hover,&:focus": {
+      transform: "scale(1.2)"
+    }
+  },
+  container: {
+    backgroundColor: "rgb(255, 255, 255)",
+    boxShadow: `0 2px 2px 0 rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255), 0 1px 5px 0 rgb(255, 255, 255)`,
+    "&:hover,&:focus": {
+      backgroundColor: "rgb(255, 255, 255)",
+      boxShadow: `0 14px 26px -12px rgb(255, 255, 255), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgb(255, 255, 255)`
+    }
   },
   iconWrapper: {
-    float: "left",
+    // float: "left",
     marginTop: "24px",
     marginRight: "10px"
   },
@@ -47,7 +59,8 @@ const infoStyle = {
   },
   descriptionWrapper: {
     color: grayColor,
-    overflow: "hidden"
+    overflow: "hidden",
+    padding: "0px 8px 0px 8px"
   },
   title,
   description: {
@@ -57,7 +70,8 @@ const infoStyle = {
     fontSize: "14px"
   },
   iconWrapperVertical: {
-    float: "none"
+    margin: "0 auto",
+    padding: "8px 0px 0px 0px"
   },
   iconVertical: {
     width: "61px",
