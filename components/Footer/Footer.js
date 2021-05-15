@@ -7,7 +7,8 @@ import classNames from "classnames";
 // material-ui core components
 import { List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-
+import Tooltip from "@material-ui/core/Tooltip";
+import Button from "components/CustomButtons/Button.js";
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
 
@@ -50,14 +51,115 @@ export default function Footer(props) {
                 Guidelines
               </a>
             </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <Tooltip
+                id="instagram-twitter"
+                title="Follow us on twitter"
+                placement={"top"}
+                classes={{ tooltip: classes.tooltip }}
+              >
+                <Button
+                  href="https://twitter.com/ArciTECH_SNU"
+                  target="_blank"
+                  color="transparent"
+                  className={classes.navLink}
+                >
+                  <i className={classes.socialIcons + " fab fa-twitter"} />
+                </Button>
+              </Tooltip>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <Tooltip
+                id="instagram-facebook"
+                title="Follow us on facebook"
+                placement={"top"}
+                classes={{ tooltip: classes.tooltip }}
+              >
+                <Button
+                  color="transparent"
+                  href="https://www.facebook.com/ArciTECH-108818261348375"
+                  target="_blank"
+                  className={classes.navLink}
+                >
+                  <i className={classes.socialIcons + " fab fa-facebook"} />
+                </Button>
+              </Tooltip>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <Tooltip
+                id="linked-in-tooltip"
+                title="Follow us on linked-in"
+                placement={"top"}
+                classes={{ tooltip: classes.tooltip }}
+              >
+                <Button
+                  color="transparent"
+                  href="https://www.linkedin.com/company/arcitech-snu/"
+                  target="_blank"
+                  className={classes.navLink}
+                >
+                  <i className={classes.socialIcons + " fab fa-linkedin-in"} />
+                </Button>
+              </Tooltip>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <Tooltip
+                id="youtube-in-tooltip"
+                title="Follow us on youtube"
+                placement={"top"}
+                classes={{ tooltip: classes.tooltip }}
+              >
+                <Button
+                  color="transparent"
+                  href="https://www.youtube.com/channel/UCY12Vjp4QuhScrM_BmbdRJQ"
+                  target="_blank"
+                  className={classes.navLink}
+                >
+                  <i className={classes.socialIcons + " fab fa-youtube"} />
+                </Button>
+              </Tooltip>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <Tooltip
+                id="github-in-tooltip"
+                title="Follow us on github"
+                placement={"top"}
+                classes={{ tooltip: classes.tooltip }}
+              >
+                <Button
+                  color="transparent"
+                  href="https://github.com/ArciTECH-SNU"
+                  target="_blank"
+                  className={classes.navLink}
+                >
+                  <i className={classes.socialIcons + " fab fa-github"} />
+                </Button>
+              </Tooltip>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <Tooltip
+                id="blog-in-tooltip"
+                title="Follow us on blog"
+                placement={"top"}
+                classes={{ tooltip: classes.tooltip }}
+              >
+                <Button
+                  color="transparent"
+                  href="https://medium.com/@arcitech.snu"
+                  target="_blank"
+                  className={classes.navLink}
+                >
+                  <i className={classes.socialIcons + " fab fa-blogger"} />
+                </Button>
+              </Tooltip>
+            </ListItem>
           </List>
         </div>
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()}
           {/* with{" "} */}
           {/* <Favorite className={classes.icon} />  */}
-          , made by Team ArciTech to Build a better
-          community
+          , made by Team ArciTECH
         </div>
       </div>
     </footer>
