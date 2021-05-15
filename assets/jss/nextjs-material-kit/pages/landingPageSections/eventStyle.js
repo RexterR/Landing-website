@@ -4,7 +4,7 @@ import imagesStyle from "assets/jss/nextjs-material-kit/imagesStyles.js";
 const teamStyle = {
   section: {
     padding: "70px 0",
-    textAlign: "center",
+    textAlign: "center"
   },
   title: {
     ...title,
