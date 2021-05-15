@@ -34,7 +34,7 @@ export default function LandingPage(props) {
         id="header"
         color="transparent"
         routes={dashboardRoutes}
-        brand="ArciTech"
+        brand="ArciTECH"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -43,7 +43,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       ></Header>
-      <Parallax filter responsive image={require("assets/img/project.jpg")} >
+      <Parallax filter responsive image={require("assets/img/team_work.jpg")} >
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -58,8 +58,10 @@ export default function LandingPage(props) {
               </h3>
               <div>
                 <Button
-                  color="primary"
+                  color="custom" rounded
                   href="https://docs.google.com/forms/d/e/1FAIpQLSff47ZF6wc_Cb89vwb3U4Cq4rq4TBOb_b5_jOWrg5OKirEeXw/viewform?usp=sf_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Submit Project
                     </Button>

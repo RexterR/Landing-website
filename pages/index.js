@@ -3,7 +3,6 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-
 // @material-ui/icons
 
 // core components
@@ -36,7 +35,7 @@ export default function LandingPage(props) {
         id="header"
         color="transparent"
         routes={dashboardRoutes}
-        brand="ArciTech"
+        brand="ArciTECH"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -45,7 +44,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       ></Header>
-      <Parallax filter responsive image={require("assets/img/arcitech2-bg.jpg")}>
+      <Parallax filter responsive image={require("assets/img/profile-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -55,7 +54,7 @@ export default function LandingPage(props) {
               </h4>
               <br />
               <Button
-                color="primary"
+                color="custom"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSe9W2B4-S2Stv62l5zgWTemwXpLyKC91jtOsLZZTglbEmonkg/viewform?usp=sf_link"
                 target="_blank"
                 rel="noopener noreferrer"
