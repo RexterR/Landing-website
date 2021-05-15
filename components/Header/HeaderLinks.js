@@ -50,6 +50,27 @@ export default function HeaderLinks(props) {
           </Button>
         </ListItem>
       </Link>
+      <ListItem className={classes.listItem}>
+        <Button
+          color="transparent"
+          className={classes.navLink}
+          href="https://medium.com/@arcitech.snu"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog
+          </Button>
+      </ListItem>
+      {/* <ListItem className={classes.listItem}> */}
+      <Button
+        color="custom"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSe9W2B4-S2Stv62l5zgWTemwXpLyKC91jtOsLZZTglbEmonkg/viewform?usp=sf_link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        JOIN US
+        </Button>
+      {/* </ListItem> */}
       {/* <Link href="/contact">
         <ListItem className={classes.listItem}>
           <Button color="transparent" className={classes.navLink}>
@@ -62,13 +83,13 @@ export default function HeaderLinks(props) {
           Blog
         </Button>
       </ListItem> */}
-      <ListItem className={classes.listItem}>
-        {/*<Tooltip title="Delete">
+      {/* <ListItem className={classes.listItem}> */}
+      {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
             <DeleteIcon />
           </IconButton>
         </Tooltip>*/}
-        <Tooltip
+      {/* <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
           placement={"top"}
@@ -117,7 +138,7 @@ export default function HeaderLinks(props) {
             <i className={classes.socialIcons + " fab fa-instagram"} />
           </Button>
         </Tooltip>
-      </ListItem>
-    </List>
+      </ListItem> */}
+    </List >
   );
 }
