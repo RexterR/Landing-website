@@ -75,6 +75,13 @@ const buttonStyle = {
   fullWidth: {
     width: "100%"
   },
+  custom: {
+    backgroundColor: "rgb(100, 149, 237)",
+    "&:hover,&:focus": {
+      backgroundColor: "rgb(100, 149, 237)",
+      boxShadow: `0 14px 26px -12px rgb(255, 255, 255), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgb(255, 255, 255)`
+    }
+  },
   primary: {
     backgroundColor: primaryColor,
     boxShadow: `0 2px 2px 0 ${hexToRGBAlpha(
