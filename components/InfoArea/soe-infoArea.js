@@ -6,7 +6,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import styles from "assets/jss/nextjs-material-kit/components/soe-infoStyle.js";
+import styles from "assets/jss/nextjs-material-kit/components/soe-infostyle.js";
 
 const useStyles = makeStyles(styles);
 
