@@ -14,7 +14,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 import SoeInfoArea from "components/InfoArea/soe-infoArea.js";
-
+import Button from "components/CustomButtons/Button.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -111,48 +111,35 @@ export default function ProductSection() {
         </GridContainer>
       </div>
       <br />
-      <br />
-      <br />
-      <div>
-        <GridContainer>
-          <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={4}>
-              <img
-                src={require("assets/img/extra.png")}
-                alt="..."
-                className={imageClasses}
-                width="400px"
-                height="300px"
-              // margin="0px 0px 0px -40px"
-              />
-            </GridItem>
-          </GridContainer>
-
-          <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={4}>
-              {/* <div justify="center">
-              <img
-                src={require("assets/img/snu.png")}
-                alt="..."
-                className={imageClasses}
-                width="90px"
-                height="85px"
-              />
-            </div> */}
-
-              <SoeInfoArea
-                title="School Of Engineering, Sister Nivedita University"
-                description="
-              School of Engineering, Sister Nivedita University was established in 2018 with the vision of educating students with practical exposure leading to a career
-              in research and development. Here the students are trained with modern facilities in order to meet the top industrial standards.  
-              School of Engineering has set sublime standards in addressing the technical and managerial resource shortage in the new era of dynamic globalisation. 
-              Since its inception, it has surpassed innumerable benchmarks of achievements and accreditations."
-              />
-            </GridItem>
-          </GridContainer>
-
-        </GridContainer>
-      </div>
+      <GridContainer direction="column"
+        alignItems="center">
+        <GridItem xs={12} sm={12} md={8}>
+          <img
+            src={require("assets/img/extra.png")}
+            alt="..."
+            className={imageClasses}
+            width="400px"
+            height="300px"
+          />
+          <h2 className={classes.title}>School Of Engineering <br />Sister Nivedita University</h2>
+          <img src={require("assets/img/soe2.png")} className={imageClasses} width="200" height="200" />
+          <h5 className={classes.description}>
+            School of Engineering, Sister Nivedita University was established in 2018 with the vision of educating students with practical exposure leading to a career
+            in research and development. Here the students are trained with modern facilities in order to meet the top industrial standards.
+            School of Engineering has set sublime standards in addressing the technical and managerial resource shortage in the new era of dynamic globalisation.
+            Since its inception, it has surpassed innumerable benchmarks of achievements and accreditations.
+          </h5>
+          <br />
+          <Button
+            color="custom"
+            href="https://snuniv.ac.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn More
+              </Button>
+        </GridItem>
+      </GridContainer>
     </div>
   );
 }

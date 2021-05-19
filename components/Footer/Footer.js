@@ -32,7 +32,7 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>ArciTech</ListItem>
+            <ListItem className={classes.inlineBlock}>ArciTECH</ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
                 href="https://docs.google.com/document/d/1YVGrwAhnVld6F8ofTVd3XEtKx8o2huy7FHSEmOS-fyg/edit?usp=sharing"

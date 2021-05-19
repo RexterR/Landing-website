@@ -61,28 +61,29 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src={require("assets/img/first-event.png")}
+                  src={require("assets/img/first-event4.jpg")}
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Introductory Event: Git and GitHub
+                Signing Into Development World
                 <br />
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  In this modern world of development and technology, a place for
-                  collaboration is highly needed. Hence we come up with this
-                  amazing session on Git & GitHub where we will discuss about
-                  it in-depth and also build some interesting things.
+                  In this modern world of development and technology, the art of starting
+                  development and the way of continuously doing it is something very challenging.
+                  Hence we come up with this event where the experts will not only share their
+                  experience and knowledge about the development world but will also give hands-on
+                  training on some open resources for development.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
                 <Button color="success" disabled startIcon={<EventRoundedIcon />}>
-                  <span className={classes.date}>26-05-2021, 6:00 PM</span>
+                  <span className={classes.date}>05-06-2021</span>
                 </Button>
-                <Button color="custom" href="https://meet.google.com/qad-kmgv-ydu" target="_blank" rel="noopener noreferrer">Event Link</Button>
+                <Button color="custom" href="https://docs.google.com/forms/d/e/1FAIpQLScwNUiMx8g11CsJzsdWaEo06fY2ECIgDglxmkpSdhm8dCiPRw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Reguster Here</Button>
               </CardFooter>
             </Card>
           </GridItem>
