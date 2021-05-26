@@ -62,12 +62,15 @@ export default function Header(props) {
     [classes.fixed]: fixed,
   });
   const brandComponent = (
-    <Link href="/" as="/">
-      <div>
-        <img src={require("assets/img/arcitech.svg")} width="40" height="40" />
-        <Button className={classes.title}>{brand}</Button>
-      </div>
-    </Link>
+    <div>
+      <Button color="transparent"
+        className={classes.navLink}
+        href="https://snuniv.ac.in/"
+        target="_blank"
+        rel="noopener noreferrer"><img src={require("assets/img/logo-wide.png")} width="130" height="40" /></Button>
+      <img src={require("assets/img/arcitech.svg")} width="40" height="40" />
+      <Button className={classes.title}>{brand}</Button>
+    </div>
   );
   return (
     <AppBar className={appBarClasses} id={props.id}>

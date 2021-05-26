@@ -132,7 +132,7 @@ export default function ProductSection() {
           <br />
           <Button
             color="custom"
-            href="https://snuniv.ac.in/"
+            href="https://snuniv.ac.in/master/page/school-of-engineering"
             target="_blank"
             rel="noopener noreferrer"
           >
