@@ -83,7 +83,7 @@ export default function TeamSection() {
                 <Button color="success" disabled startIcon={<EventRoundedIcon />}>
                   <span className={classes.date}>05-06-2021</span>
                 </Button>
-                <Button color="custom" href="https://docs.google.com/forms/d/e/1FAIpQLScwNUiMx8g11CsJzsdWaEo06fY2ECIgDglxmkpSdhm8dCiPRw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Reguster Here</Button>
+                <Button color="custom" href="https://docs.google.com/forms/d/e/1FAIpQLScwNUiMx8g11CsJzsdWaEo06fY2ECIgDglxmkpSdhm8dCiPRw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register Here</Button>
               </CardFooter>
             </Card>
           </GridItem>
