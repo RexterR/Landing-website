@@ -35,7 +35,7 @@ export default function Footer(props) {
             <ListItem className={classes.inlineBlock}>ArciTECH</ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://docs.google.com/document/d/1YVGrwAhnVld6F8ofTVd3XEtKx8o2huy7FHSEmOS-fyg/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1qDC8OTXsshuO1LxO00JBZoLWhGCzzk1O/view?usp=sharing"
                 className={classes.block}
                 target="_blank"
               >
@@ -44,7 +44,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://docs.google.com/document/d/1zZ1vzZu8RkCRrnW7SnwgHEMUjTxPl-NDz1qrY7BkCt4/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1-dgf_RJjg5Qb5z6Ce5dKbQQQnBXV7zRg/view?usp=sharing"
                 className={classes.block}
                 target="_blank"
               >
