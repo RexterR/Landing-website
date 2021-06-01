@@ -1,7 +1,7 @@
 import { cardTitle, title } from "assets/jss/nextjs-material-kit.js";
 import imagesStyle from "assets/jss/nextjs-material-kit/imagesStyles.js";
 
-const teamStyle = {
+const eventStyle = {
   section: {
     padding: "70px 0",
     textAlign: "center"
@@ -45,4 +45,4 @@ const teamStyle = {
   date: { fontWeight: "500" },
 };
 
-export default teamStyle;
+export default eventStyle;
