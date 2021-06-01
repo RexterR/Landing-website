@@ -74,7 +74,9 @@ export default function TeamSection() {
                 <GridItem xs={12} sm={12} md={8}>
                     <h2 className={classes.title}>Event Timing & Platform</h2>
                     <h4 className={classes.description}>
-                        The event will start sharp from 3 pm and will continue till 6 pm. It will be an online webinar and will be held on the Google Meet platform.
+                        The event is going to be held on 5th June 2021 and will start sharp from 3 pm onwards.
+                        It will be an online webinar and one can register and join the event on Google Meet or can even join the live
+                        streaming of this event on our Facebook Page and Youtube Channel.
                 </h4>
                 </GridItem>
             </GridContainer>
@@ -181,6 +183,19 @@ export default function TeamSection() {
                             </Button>
                         </CardBody>
                     </Card>
+                </GridItem>
+            </GridContainer>
+            <br />
+            <GridContainer direction="column"
+                alignItems="center">
+                <GridItem xs={12} sm={12} md={8}>
+                    <h2 className={classes.title}> Merits of Joining </h2>
+                    <h4 className={classes.description}>
+                        i)   Discussion on World of Development<br />
+                        ii)  Paths towards becoming a successful developer<br />
+                        iii) Hands-on Session: Deployment of a Sample Project<br />
+                        iv) All the attendees will get <b>Certificate of Participation</b>
+                    </h4>
                 </GridItem>
             </GridContainer>
             <br />
