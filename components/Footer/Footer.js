@@ -59,7 +59,7 @@ export default function Footer(props) {
                 classes={{ tooltip: classes.tooltip }}
               >
                 <Button
-                  href="https://twitter.com/ArciTECH_SNU"
+                  href="https://twitter.com/ArciTECH_Comm"
                   target="_blank"
                   color="transparent"
                   className={classes.navLink}
@@ -94,7 +94,7 @@ export default function Footer(props) {
               >
                 <Button
                   color="transparent"
-                  href="https://www.linkedin.com/company/arcitech-snu/"
+                  href="https://www.linkedin.com/company/arcitechcommunity"
                   target="_blank"
                   className={classes.navLink}
                 >
@@ -128,7 +128,7 @@ export default function Footer(props) {
               >
                 <Button
                   color="transparent"
-                  href="https://github.com/ArciTECH-SNU"
+                  href="https://github.com/ArciTECHCommunity"
                   target="_blank"
                   className={classes.navLink}
                 >

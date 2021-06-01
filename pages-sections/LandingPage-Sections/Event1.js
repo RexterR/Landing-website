@@ -74,8 +74,8 @@ export default function TeamSection() {
                 <GridItem xs={12} sm={12} md={8}>
                     <h2 className={classes.title}>Event Timing & Platform</h2>
                     <h4 className={classes.description}>
-                        The event is going to be held on 5th June 2021 and will start sharp from 3 pm onwards.
-                        It will be an online webinar and one can register and join the event on Google Meet or can even join the live
+                        The event is going to be held on <b>5th June 2021</b> and will start sharp from <b>3 pm onwards</b>.
+                        It will be an online webinar and one can register and join the event on <b>Google Meet</b> or can even join the live
                         streaming of this event on our Facebook Page and Youtube Channel.
                 </h4>
                 </GridItem>
@@ -90,6 +90,37 @@ export default function TeamSection() {
             </GridContainer>
 
             <GridContainer direction="row" alignItems="center">
+                <GridItem xs={12} sm={12} md={4}>
+                    <Card plain>
+                        <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                            <img
+                                src={require("assets/img/Madhurima.jpg")}
+                                alt="..."
+                                className={imageClasses}
+                            />
+                        </GridItem>
+                        <h4 className={classes.cardTitle}>
+                            Madhurima Ray
+                            </h4>
+                        <CardBody>
+                            <p className={classes.description}>
+                                She is the Senior Software Engineer at Intel Corporation. She has also worked as a graduate research assistant at the Temple University.
+                                Her research was related to data center environment. Her interest lies in the distributed storage systems and
+                                persistent memories, mainly when it comes to data centers, the problem gets more interesting.
+                                </p>
+                            <Button
+                                href="https://www.linkedin.com/in/madhurima-ray/"
+                                justIcon
+                                color="transparent"
+                                // className={classes.margin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className={classes.socials + " fab fa-linkedin-in"} />
+                            </Button>
+                        </CardBody>
+                    </Card>
+                </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                     <Card plain>
                         <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
@@ -153,6 +184,9 @@ export default function TeamSection() {
                         </CardBody>
                     </Card>
                 </GridItem>
+            </GridContainer>
+            <GridContainer direction="column"
+                alignItems="center">
                 <GridItem xs={12} sm={12} md={4}>
                     <Card plain>
                         <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
@@ -191,7 +225,7 @@ export default function TeamSection() {
                 <GridItem xs={12} sm={12} md={8}>
                     <h2 className={classes.title}> Merits of Joining </h2>
                     <h4 className={classes.description}>
-                        i)   Discussion on World of Development<br />
+                        i)   Discussion on the World of Development<br />
                         ii)  Paths towards becoming a successful developer<br />
                         iii) Hands-on Session: Deployment of a Sample Project<br />
                         iv) All the attendees will get <b>Certificate of Participation</b>
@@ -210,7 +244,7 @@ export default function TeamSection() {
                         Or,
                         <br />
                         Contact our Event Managers:<br />
-                        i)  <b>Anand Kumar: 6291317856</b><br />
+                        i)  <b>Anand Kumar: 8100699918</b><br />
                         ii) <b>Abhinaba Roy Chowdhury: 7003168779</b><br />
                     </h4>
                 </GridItem>

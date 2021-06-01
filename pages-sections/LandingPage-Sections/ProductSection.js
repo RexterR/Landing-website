@@ -30,7 +30,7 @@ export default function ProductSection() {
           <h2 className={classes.title}>ABOUT US</h2>
           <br />
           <h5 className={classes.description}>
-            ArciTECH Community is an initiative from  School of Engineering, Sister Nivedita  University, with the vision of creating an environment
+            ArciTECH Community is an initiative from School of Engineering, Sister Nivedita  University, with the vision of creating an environment
             where people enthusiastic about learning and developing, come together to share their knowledge and build astounding projects.
             Our goal is to come up with solutions for real life problems and grow the concept of peer-to-peer learning in the society.
             <br />
