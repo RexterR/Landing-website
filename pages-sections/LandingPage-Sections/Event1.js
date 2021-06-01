@@ -210,8 +210,8 @@ export default function TeamSection() {
                         Or,
                         <br />
                         Contact our Event Managers:<br />
-                        i)  <b>Anand Kumar: 9999999999</b><br />
-                        ii) <b>Abhinaba Roy Chowdhury: 0000000000</b><br />
+                        i)  <b>Anand Kumar: 6291317856</b><br />
+                        ii) <b>Abhinaba Roy Chowdhury: 7003168779</b><br />
                     </h4>
                 </GridItem>
             </GridContainer>
