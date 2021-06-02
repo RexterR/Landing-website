@@ -94,7 +94,7 @@ export default function TeamSection() {
                     <Card plain>
                         <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                             <img
-                                src={require("assets/img/Madhurima.jpg")}
+                                src={require("assets/img/MadhurimaRay.jpg")}
                                 alt="..."
                                 className={imageClasses}
                             />
@@ -104,9 +104,9 @@ export default function TeamSection() {
                             </h4>
                         <CardBody>
                             <p className={classes.description}>
-                                She is the Senior Software Engineer at Intel Corporation, USA. She has completed her PhD from the Temple University, USA.
+                                Dr. Ray is the Senior Software Engineer at Intel Corporation, USA. She has completed her PhD from the Temple University, USA.
                                 She was also an intern at HP and has worked with TCS as well. She has completed her Bachelors' and Masters' from Calcutta University, India.
-                                She was one of the finest student of her time and university ranker as well.
+                                She was one of the finest student of her time and a Gold medalist in her university.
                                 </p>
                             <Button
                                 href="https://www.linkedin.com/in/madhurima-ray/"
@@ -135,7 +135,7 @@ export default function TeamSection() {
                             </h4>
                         <CardBody>
                             <p className={classes.description}>
-                                He has worked in TCS for 6.5 years, out of which he has worked in an onsite (Belgium) role for more than three years.
+                                Mr. Sanyal has worked in TCS for 6.5 years, out of which he has worked in an onsite (Belgium) role for more than three years.
                                 Starting as a trainee in TCS, he recently left as a team lead which then was comprising of approximately
                                 20 associates. He is currently working as a SAP ISU techno functional consultant in a
                                 Belgium based company.
@@ -167,7 +167,7 @@ export default function TeamSection() {
                             </h4>
                         <CardBody>
                             <p className={classes.description}>
-                                He is the Co-Founder of Frazor Enterprise, a Fintech Startup, recognized by the Government of India.
+                                Mr Jain is the Co-Founder of Frazor Enterprise, a Fintech Startup, recognized by the Government of India.
                                 His startup was awarded as the Most Innovative startup in the fintech domain by the National Payment Corporation of India (NPCI).
                                 Frazor is currently working with NPCI to develop an exceptional Bill payment and information exchange solution for India.
                             </p>
@@ -201,7 +201,7 @@ export default function TeamSection() {
                             </h4>
                         <CardBody>
                             <p className={classes.description}>
-                                He is the Developer Lead at ArciTECH Community. He is currently working as an intern in Cosgrid Networks Pvt Ltd, Chennai.
+                                Mr. Das is the Developer Lead at ArciTECH Community. He is currently working as an intern in Cosgrid Networks Pvt Ltd, Chennai.
                                 He has done many amazing projects and has good knowledge of technologies like MongoDB, Cloud Computing,
                                 Kubernetes, ReactJS, TypeScript and Python. He is also a 3rd Year BTech student in Sister Nivedita University.
                                 </p>
@@ -227,8 +227,9 @@ export default function TeamSection() {
                     <h4 className={classes.description}>
                         i)   Discussion on the World of Development<br />
                         ii)  Paths towards becoming a successful developer<br />
-                        iii) Hands-on Session: Deployment of a Sample Project<br />
-                        iv) All the attendees will get <b>Certificate of Participation</b>
+                        iii) Knowledge on Career Paths from Industry Professionals<br />
+                        iv) Hands-on Session: Deployment of a Sample Project<br />
+                        v) All the attendees will get <b>Certificate of Participation</b>
                     </h4>
                 </GridItem>
             </GridContainer>
