@@ -54,7 +54,7 @@ export default function HeaderLinks(props) {
         <Button
           color="transparent"
           className={classes.navLink}
-          href="https://medium.com/@arcitech.snu"
+          href="https://medium.com/@ArciTECHCommunity"
           target="_blank"
           rel="noopener noreferrer"
         >

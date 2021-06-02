@@ -145,7 +145,7 @@ export default function Footer(props) {
               >
                 <Button
                   color="transparent"
-                  href="https://medium.com/@arcitech.snu"
+                  href="https://medium.com/@ArciTECHCommunity"
                   target="_blank"
                   className={classes.navLink}
                 >
