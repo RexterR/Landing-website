@@ -45,7 +45,7 @@ export default function TeamSection() {
                             very challenging. There are various obstacles that one needs to face and therefore perfect planning and proper guidance can
                             lead to better understanding and help in reaching greater heights.<br /><br />
 
-                            This challenge motivated us to come up with this <b>One Day Webinar</b> where the Industry Experts will share their knowledge and experience
+                            This challenge motivated us to come up with this <b>One Day International Webinar</b> where the Industry Experts will share their knowledge and experience
                             on how to become a successful developer and what can be the various paths or roadmaps that one can follow.
                             Along with the intense talk from experts we will also have an amazing Hand-on session on "How to Deploy your Project", which will be
                             delivered by our Developer Lead.

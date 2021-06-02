@@ -167,7 +167,7 @@ export default function TeamSection() {
               </h6>
             <CardFooter className={classes.justifyCenter}>
               <Button
-                href="https://www.linkedin.com/in/dr-prasit-kumar-bandyopadhyay-ab292a2a"
+                href="https://twitter.com/OnlyPrasit"
                 justIcon
                 color="transparent"
                 className={classes.margin5}

@@ -75,7 +75,7 @@ export default function TeamSection() {
                 <p className={classes.description}>
                   In this modern world of development and technology, the art of starting
                   development and the way of continuously doing it is something very challenging.
-                  Hence we come up with this event where the experts will not only share their
+                  Hence we come up with this One Day International Webinar where the experts will not only share their
                   experience and knowledge about the development world but will also give hands-on
                   training on some open resources for development.
                 </p>
