@@ -100,13 +100,13 @@ export default function TeamSection() {
                             />
                         </GridItem>
                         <h4 className={classes.cardTitle}>
-                            Madhurima Ray
+                            Dr. Madhurima Ray, PhD
                             </h4>
                         <CardBody>
                             <p className={classes.description}>
-                                She is the Senior Software Engineer at Intel Corporation. She has also worked as a graduate research assistant at the Temple University.
-                                Her research was related to data center environment. Her interest lies in the distributed storage systems and
-                                persistent memories, mainly when it comes to data centers, the problem gets more interesting.
+                                She is the Senior Software Engineer at Intel Corporation, USA. She has completed her PhD from the Temple University, USA.
+                                She was also an intern at HP and has worked with TCS as well. She has completed her Bachelors' and Masters' from Calcutta University, India.
+                                She was one of the finest student of her time and university ranker as well.
                                 </p>
                             <Button
                                 href="https://www.linkedin.com/in/madhurima-ray/"
