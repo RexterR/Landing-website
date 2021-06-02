@@ -75,7 +75,7 @@ export default function TeamSection() {
                     <h2 className={classes.title}>Event Timing & Platform</h2>
                     <h4 className={classes.description}>
                         The event is going to be held on <b>5th June 2021</b> and will start sharp from <b>3 pm onwards</b>.
-                        It will be an online webinar and one can register and join the event on <b>Google Meet</b> or can even join the live
+                        It will be an online webinar and one can register by <b>4th June 2021, Friday(9pm)</b> to join the event on <b>Google Meet</b> or can even join the live
                         streaming of this event on our Facebook Page and Youtube Channel.
                 </h4>
                 </GridItem>
@@ -240,9 +240,9 @@ export default function TeamSection() {
                 <GridItem xs={12} sm={12} md={8}>
                     <h2 className={classes.title}> Event Coordinators </h2>
                     <h4 className={classes.description}>
-                        <b>Team ArciTECH</b> <br />
-                        & <br />
                         <b>Prof. Joy Dutta</b>, <br />Department of Computer Science and Engineering, <br />Sister Nivedita University<br />
+                        & <br />
+                        <b>Team ArciTECH</b>
                     </h4>
                 </GridItem>
             </GridContainer>
