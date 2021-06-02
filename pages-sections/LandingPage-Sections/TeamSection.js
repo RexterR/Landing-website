@@ -107,6 +107,91 @@ export default function TeamSection() {
       <div>
         <GridContainer>{TeamReturn}</GridContainer>
       </div>
+      <h2 className={classes.title}> Faculty Mentors </h2>
+      <GridContainer justify="center">
+        <GridItem xs={12} sm={12} md={4}>
+          <Card plain>
+            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <img
+                src={require("assets/img/Joy.jpg")}
+                alt="..."
+                className={imageClasses}
+              />
+            </GridItem>
+            <h4 className={classes.cardTitle}>
+              Prof. Joy Dutta
+            </h4>
+            <h6 className={classes.smallTitle}>
+              Dept of Computer Science and Engineering, <br />
+                Sister Nivedita University
+              </h6>
+            <CardFooter className={classes.justifyCenter}>
+              <Button
+                href="https://twitter.com/thejoydutta"
+                justIcon
+                color="transparent"
+                className={classes.margin5}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className={classes.socials + " fab fa-twitter"} />
+              </Button>
+              <Button
+                href="https://www.linkedin.com/in/idforjoydutta/"
+                justIcon
+                color="transparent"
+                className={classes.margin5}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className={classes.socials + " fab fa-linkedin-in"} />
+              </Button>
+            </CardFooter>
+          </Card>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={4}>
+          <Card plain>
+            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <img
+                src={require("assets/img/Prasit.jpg")}
+                alt="..."
+                className={imageClasses}
+              />
+            </GridItem>
+            <h4 className={classes.cardTitle}>
+              Prof. Prasit Banerjee
+            </h4>
+            <h6 className={classes.smallTitle}>
+              Dept of Electronics and Communication Engineering,<br />
+                Sister Nivedita University
+              </h6>
+            <CardFooter className={classes.justifyCenter}>
+              <Button
+                href="https://www.linkedin.com/in/idforjoydutta/"
+                justIcon
+                color="transparent"
+                className={classes.margin5}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className={classes.socials + " fab fa-twitter"} />
+              </Button>
+              <Button
+                href="https://www.linkedin.com/in/idforjoydutta/"
+                justIcon
+                color="transparent"
+                className={classes.margin5}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className={classes.socials + " fab fa-linkedin-in"} />
+              </Button>
+            </CardFooter>
+          </Card>
+        </GridItem>
+      </GridContainer>
+      <div>
+      </div>
     </div>
   );
 }

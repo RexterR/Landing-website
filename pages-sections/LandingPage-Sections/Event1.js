@@ -43,10 +43,10 @@ export default function TeamSection() {
                         <h4 className={classes.description}>
                             In this modern world of development and technology, the art of starting development and the way of continuously doing it is something
                             very challenging. There are various obstacles that one needs to face and therefore perfect planning and proper guidance can
-                            lead to better understanding and help in reaching greater heights.
+                            lead to better understanding and help in reaching greater heights.<br /><br />
 
-                            This challenge motivated us to come up with this event where the Industry Experts will share their knowledge and experience
-                            on how to become a succesful developer and what can be the various paths or roadmaps that one can follow.
+                            This challenge motivated us to come up with this <b>One Day Webinar</b> where the Industry Experts will share their knowledge and experience
+                            on how to become a successful developer and what can be the various paths or roadmaps that one can follow.
                             Along with the intense talk from experts we will also have an amazing Hand-on session on "How to Deploy your Project", which will be
                             delivered by our Developer Lead.
                         </h4>
@@ -230,6 +230,19 @@ export default function TeamSection() {
                         iii) Knowledge on Career Paths from Industry Professionals<br />
                         iv) Hands-on Session: Deployment of a Sample Project<br />
                         v) All the attendees will get <b>Certificate of Participation</b>
+                    </h4>
+                </GridItem>
+            </GridContainer>
+            <br />
+            <br />
+            <GridContainer direction="column"
+                alignItems="center">
+                <GridItem xs={12} sm={12} md={8}>
+                    <h2 className={classes.title}> Event Coordinators </h2>
+                    <h4 className={classes.description}>
+                        <b>Team ArciTECH</b> <br />
+                        & <br />
+                        <b>Prof. Joy Dutta</b>, <br />Department of Computer Science and Engineering, <br />Sister Nivedita University<br />
                     </h4>
                 </GridItem>
             </GridContainer>
