@@ -167,7 +167,7 @@ export default function TeamSection() {
               </h6>
             <CardFooter className={classes.justifyCenter}>
               <Button
-                href="https://www.linkedin.com/in/idforjoydutta/"
+                href="https://www.linkedin.com/in/dr-prasit-kumar-bandyopadhyay-ab292a2a"
                 justIcon
                 color="transparent"
                 className={classes.margin5}
@@ -177,7 +177,7 @@ export default function TeamSection() {
                 <i className={classes.socials + " fab fa-twitter"} />
               </Button>
               <Button
-                href="https://www.linkedin.com/in/idforjoydutta/"
+                href="https://www.linkedin.com/in/dr-prasit-kumar-bandyopadhyay-ab292a2a"
                 justIcon
                 color="transparent"
                 className={classes.margin5}
