@@ -27,49 +27,18 @@ export default function TeamSection() {
       {/* <h2 className={classes.title}>Exciting Events Coming Soon !!!</h2> */}
       <div>
         <GridContainer>
-          {/* <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={12} md={6} lg={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <GridItem xs={12} sm={12} md={6} lg={4}>
                 <img
-                  src={`https://i.morioh.com/139b757e13.png`}
+                  src={require("assets/img/event1.jpg")}
                   alt="..."
-                  className={imageClasses}
-                />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Full stack Development using MEAN stack(MongoDB,Angular,Express
-                and NodeJS).And Deployment
-                <br />
-              </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  In this modern world of web development the demand of building
-                  UI based frontend arcitecture, API based Backend and robust
-                  and modern Database is all time high. So we decided to start a
-                  30 day series to cover them all by learning MEAN stck
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button color="success" startIcon={<EventRoundedIcon />} disabled>
-                  <span className={classes.date}>05-06-2020, 7:00 PM</span>
-                </Button>
-
-                <Button color="primary">Event Link</Button>
-              </CardFooter>
-            </Card>
-          </GridItem> */}
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img
-                  src={require("assets/img/first-event4.jpg")}
-                  alt="..."
-                  className={imageClasses}
+                  width="300px"
+                  height="auto"
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Signing Into Development World
-                <br />
               </h4>
               <CardBody>
                 <p className={classes.description}>
