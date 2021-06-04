@@ -133,7 +133,7 @@ export default function ProductSection() {
           </GridItem>
         </GridContainer>
         <GridContainer direction="column" alignItems="center">
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={12} md={8}>
             <Card plain>
               <h3 className={classes.cardTitle}>
                 <b>Signing Into Development World</b>
@@ -163,8 +163,8 @@ export default function ProductSection() {
             src={require("assets/img/extra.png")}
             alt="..."
             className={imageClasses}
-            width="400px"
-            height="300px"
+            width="50%"
+            height="auto"
           />
           <h2 className={classes.title}>School Of Engineering <br />Sister Nivedita University</h2>
           <img src={require("assets/img/soe2.png")} className={imageClasses} width="200" height="200" />
