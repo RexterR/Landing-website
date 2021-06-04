@@ -127,7 +127,7 @@ export default function ProductSection() {
               className={imageClasses}
               // width="700px"
               // height="400px"
-              width="400px"
+              width="100%"
               height="auto"
             />
           </GridItem>
