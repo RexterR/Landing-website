@@ -48,37 +48,25 @@ export default function LandingPage(props) {
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
                             <h1 className={classes.title}>
-                                Events
+                                Signing Into Development World
                              </h1>
+                            <br />
                             <h4 classname={classes.subtitle}>
-                                Join us in our events and gather knowledge with fun. Here in ArciTECH, we try and make our events more joyful and informative
-                                such that each and every person attending are benefitted from it.
-                                <br />
-                                <br />
-                                Interested in being Speaker or Sponsor ? Check out below options.
-                            </h4>
+                                The event is open for all. Join the event and get experience from leading Industry Professionals.
+                                Last but not the least, enjoy the live Hands-on session from our Developer Lead.
+                                </h4>
+                            <br />
                             <br />
                             <GridContainer>
                                 <GridItem xs={6} sm={6} md={6}>
-
                                     <Button
                                         color="custom" rounded
-                                        href="https://docs.google.com/forms/d/e/1FAIpQLSc6cAaOdOZF2SRHAQNpYdmEInL8r2b40fmwmyzN9SpnG0osqg/viewform?usp=sf_link"
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLScwNUiMx8g11CsJzsdWaEo06fY2ECIgDglxmkpSdhm8dCiPRw/viewform?usp=sf_link"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Proposal
+                                        Register Now !!!
                                     </Button>
-
-                                    <Button
-                                        color="custom" rounded
-                                        href="https://docs.google.com/forms/d/e/1FAIpQLScMYRr7a-FZptuZHgKqVioo1kO6lc5tJPmZtMS-RyIe0koomQ/viewform?usp=sf_link"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        Sponsor Event
-                                    </Button>
-
                                 </GridItem>
                             </GridContainer>
 

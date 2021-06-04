@@ -12,9 +12,12 @@ import WorkRoundedIcon from "@material-ui/icons/WorkRounded";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import InfoArea from "components/InfoArea/InfoArea.js";
-import SoeInfoArea from "components/InfoArea/soe-infoArea.js";
 import Button from "components/CustomButtons/Button.js";
+import Card from "components/Card/Card.js";
+import CardBody from "components/Card/CardBody.js";
+import CardFooter from "components/Card/CardFooter.js";
+import InfoArea from "components/InfoArea/InfoArea.js";
+
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -110,6 +113,46 @@ export default function ProductSection() {
           </GridItem>
         </GridContainer>
       </div>
+      <br />
+      <div>
+        <GridContainer direction="column" alignItems="center">
+          <GridItem xs={12} sm={12} md={8}>
+            <h2 className={classes.title}>UPCOMING EVENTS</h2>
+            <br />
+            <GridItem xs={12} sm={12} md={6}>
+              <img
+                src={require("assets/img/event1.jpg")}
+                alt="..."
+                // className={imageClasses}
+                width="700px"
+                height="400px"
+              />
+            </GridItem>
+          </GridItem>
+        </GridContainer>
+        <GridContainer direction="column" alignItems="center">
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <h4 className={classes.cardTitle}>
+                <b>Signing Into Development World</b>
+                <br />
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  In this modern world of development and technology, the art of starting
+                  development and the way of continuously doing it is something very challenging.
+                  Hence we come up with this One Day International Webinar where the experts will not only share their
+                  experience and knowledge about the development world but will also give hands-on
+                  training on some open resources for development.
+                </p>
+                <br />
+                <Button color="custom" href="/SigningIntoDevelopmentWorld"> Learn More</Button>
+              </CardBody>
+            </Card>
+          </GridItem>
+        </GridContainer>
+      </div>
+      <br />
       <br />
       <GridContainer direction="column"
         alignItems="center">

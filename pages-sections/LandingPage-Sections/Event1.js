@@ -24,12 +24,11 @@ export default function TeamSection() {
     const imageClasses = classNames(classes.imgCardTop);
     return (
         <div className={classes.section}>
-            <h1 className={classes.title}>Signing into Development World</h1>
-            <br />
-
             <GridContainer direction="column"
                 alignItems="center">
                 <GridItem xs={12} sm={12} md={8}>
+                    <h1 className={classes.title}>Signing into Development World</h1>
+                    <br />
                     <Button
                         color="custom"
                         href="https://docs.google.com/forms/d/e/1FAIpQLScwNUiMx8g11CsJzsdWaEo06fY2ECIgDglxmkpSdhm8dCiPRw/viewform?usp=sf_link"
