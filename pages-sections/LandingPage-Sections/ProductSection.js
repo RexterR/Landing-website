@@ -119,24 +119,26 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={8}>
             <h2 className={classes.title}>UPCOMING EVENTS</h2>
             <br />
-            <GridItem xs={12} sm={12} md={6}>
-              <img
-                src={require("assets/img/event1.jpg")}
-                alt="..."
-                // className={imageClasses}
-                width="700px"
-                height="400px"
-              />
-            </GridItem>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+            <img
+              src={require("assets/img/event1.jpg")}
+              alt="..."
+              className={imageClasses}
+              // width="700px"
+              // height="400px"
+              width="400px"
+              height="auto"
+            />
           </GridItem>
         </GridContainer>
         <GridContainer direction="column" alignItems="center">
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <h4 className={classes.cardTitle}>
+              <h3 className={classes.cardTitle}>
                 <b>Signing Into Development World</b>
                 <br />
-              </h4>
+              </h3>
               <CardBody>
                 <p className={classes.description}>
                   In this modern world of development and technology, the art of starting
